@@ -1,0 +1,42 @@
+.loginpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cdcdcd;
+}
+
+.welcome{
+    width: 40rem;
+    height: 50%;
+
+    margin: 20px;
+    padding: 20px; 
+    background-color: #004581;
+    border-radius: 5px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin:  0px 5px;
+    width: 10rem;
+    height: 2rem;
+    appearance: none;
+    background-color: #004581;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:rgb(255, 255, 255); 
+    font-size: 15px;
+    border-radius: 2px;
+}
+.btn.active,
+btn:hover {
+  background-color: #005eb0;
+  border-radius: 5px;
+}
