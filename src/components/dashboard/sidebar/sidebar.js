@@ -8,7 +8,7 @@ function Sidebar() {
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className="sidebarList">
             <li className="sidebarListItem">
-              <Link to="/">
+              <Link to="/dashboard">
               <div className="sidebarIcon">
                 <i class="bi bi-house"></i>
                 <div className='text'>Home</div>
