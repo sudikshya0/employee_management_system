@@ -9,8 +9,8 @@ function Dashboard() {
         <div >
             <Topbar/>
             <div className='container'>
-            <Sidebar/>
-            <Home/>
+            <div className="container_sidebar"><Sidebar/></div>
+            <div className="container_home"><Home/></div>
             </div>
         </div>
     )

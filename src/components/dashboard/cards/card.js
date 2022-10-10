@@ -3,7 +3,7 @@ import './card.css';
 function Card() {
     return (
         <div className='card'>
-            <div className='container'>
+            <div className='card_container'>
             <div className='left_container'>
                 <div className='cardItems'>
                 <span className="cardTitle">
@@ -19,7 +19,7 @@ function Card() {
                 </div>
             </div>
             <div className='right_container'>
-                <div>
+                <div className='cardList'>
                     <ul className="list-group">
                     <li className="list-group-item">New York</li>
                     <li className="list-group-item">Parish</li>
